@@ -220,4 +220,12 @@ main{
 .download-cv{
     text-align: center;
     margin-top: 50px;
+    padding-bottom: 120px;
+}
+
+/* footer styles */
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 200px;
 }
