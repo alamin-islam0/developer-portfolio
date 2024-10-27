@@ -227,7 +227,7 @@ main{
 footer{
     display: flex;
     background: #FFF8F3;
-    padding: 130px 380px;
+    padding: 130px 180px;
     gap: 100px;
 }
 
