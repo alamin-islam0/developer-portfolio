@@ -276,12 +276,52 @@ footer{
     display: none;
 }
 @media screen and (max-width: 576px) {
-    .skills-container, .resume-container{
+    nav,
+    .banner,
+    .skills-container, .resume-container, .about-info-container, 
+    footer{
         flex-direction: column;
         gap: 20px;
     }
     #what-i-do-descripion{
         padding: 20px;
     }
+    .resume-items-description{
+        width: 100%;
+    }
+    footer, .about{
+        padding: 10px 20px 40px 10px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    .contact input[type="text"], .contact input[type="email"], textarea {
+        width: 80%;
+    }
+    .footer-section-description{
+        width: 100%;
+    }
+    .profile-picture{
+        width: 100%;
+    }
+    .banner-description{
+        width: 100%;
+    }
+    .banner{
+        padding: 0px;
+    }
+    .banner-content{
+        font-size: 30px;
+    }
+    .banner-heading{
+        font-size: 55px;
+    }
+    .about{
+        margin-top: 0px;
+    }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
     
 }
