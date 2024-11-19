@@ -87,6 +87,7 @@ nav a{
     font-size: 45px;
     color: #474747;
     margin-bottom: 0px;
+    padding-bottom: 60px;
 }
 
 .banner-heading{
@@ -267,4 +268,20 @@ footer{
     text-align: left;
     font-size: 35px;
     font-weight: 700;
+}
+/* Responsive styles */
+
+/* Mobile devices */
+.hide{
+    display: none;
+}
+@media screen and (max-width: 576px) {
+    .skills-container, .resume-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    #what-i-do-descripion{
+        padding: 20px;
+    }
+    
 }
